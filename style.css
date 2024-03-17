@@ -133,6 +133,17 @@ body{
     opacity: 0;
  }
  100%{
+
+     @media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .vapour span {
+        height: 120px;
+        filter: blur(8px);
+    }
+}
     transform: translateY(-300px) scaleX(10);
  }
 }
